@@ -139,3 +139,6 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
